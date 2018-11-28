@@ -1,0 +1,105 @@
+body {
+    background: #e7e7e7;
+    color: #848484;
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background: #ff4747;
+    display: block;
+}
+
+h1 {
+    margin: 0 20px;
+    padding: 10px 0;
+    color: #fafafa;
+}
+
+section {
+    width: 100%;
+    float: left;
+    display: block;
+}
+
+.table {
+    float: left;
+    width: 100%;
+    margin: auto;
+}
+
+.tr {
+    float: left;
+    width: 100%;
+}
+
+.th {
+    color: #1e1e1e;
+    font-size: 18px;
+    width: 50%;
+    float: left;
+    margin: auto;
+    padding: 10px 0;
+    border-bottom: 1px solid #848484;
+}
+
+.th:last-of-type {
+    text-align: right;
+}
+
+.td {
+    width: 50%;
+    float: left;
+    margin: auto;
+    padding: 10px 0;
+    border-bottom: 1px solid #848484;
+}
+
+.th span, .td span {
+    padding-right: 20px;
+    padding-left: 20px;
+}
+
+.td:last-of-type {
+    text-align: right;
+}
+
+input {
+    border: 1px solid #848484;
+    background: #e7e7e7;
+    color: #848484;
+    font-size: 18px;
+    margin-top: 30px;
+    margin-right: 20px;
+    padding: 10px;
+    float: right;
+    text-align: right;
+}
+
+.input-info {
+    float: right;
+    text-align: right;
+    font-size: 12px;
+    width: 100%;
+    margin-top: 10px;
+    margin-right: 20px;
+}
+
+.progress-section {
+    margin: 0;
+}
+
+.progress {
+    border: #ff4747;
+    width: 100%;
+    background: #ff4747;
+    float: left;
+    margin: 10px 0;
+    padding: 10px;
+    color: #fafafa;
+}
+
+footer {
+    display: block;
+}

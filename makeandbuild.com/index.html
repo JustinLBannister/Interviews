@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Currency Converter</title>
+        <link href='https://fonts.googleapis.com/css?family=Roboto:400,100,100italic,300,300italic,400italic,500,500italic,700,700italic,900,900italic' rel='stylesheet' type='text/css'>
+        <link rel="stylesheet" href="css/styles.css">
+    </head>
+    <body>
+    <header>
+        <h1>Currency Converter</h1>
+    </header>
+    <section>
+        <div class="table">
+            <div class="tr">
+                <div class="th"><span>Country</span></div>
+                <div class="th"><span>Conversion</span></div>
+            </div>
+            <div class="tr">
+                <div class="td"><span>USD</span></div>
+                <div class="td">$<span class="usd-rate"></span></div>
+            </div>
+            <div class="tr">
+                <div class="td"><span>GBP</span></div>
+                <div class="td">$<span class="gbp-rate"></span></div>
+            </div>
+            <div class="tr">
+                <div class="td"><span>EUR</span></div>
+                <div class="td">$<span class="eur-rate"></span></div>
+            </div>
+            <div class="tr">
+                <div class="td"><span>JPY</span></div>
+                <div class="td">$<span class="jpy-rate"></span></div>
+            </div>
+            <div class="tr">
+                <div class="td"><span>BRL</span></div>
+                <div class="td">$<span class="brl-rate"></span></div>
+            </div>
+        </div>
+        <input class="usd-amount-input" type="number" name="dollar-amount" min="1" value="1">
+        <span class="input-info">*enter dollar amount for conversion</span>
+    </section>
+    <footer>
+    </footer>
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+    <script src="http://fixer.io/js/money.js"></script>
+    <script src="js/custom.js"></script>
+    </body>
+</html>
